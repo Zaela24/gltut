@@ -11,6 +11,11 @@ The [License.txt](License.txt) file contains the licensing information for the m
 
 In case you prefer Java to C++, Giuseppe Barbieri [created a Java port here](https://github.com/elect86/modern-jogl-examples).
 
+## Building the Project
+- Download [premake4](https://premake.github.io) and [glsdk](http://glsdk.sourceforge.net/docs/html/index.html). Place glsdk within the main gltut directory.
+- Pre-build glsdk with premake4, then run the associated `make` (GNU) or build (VS) commands to build all the libraries
+- Now pre-build the gltut project files, then run the associated `make` or build solution comands to finish building the project
+
 ## Rebuilding the HTML Documentation
 
 - `apt-get install lua-filesystem libxerces2-java libsaxon-java docbook-xsl`
